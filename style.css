@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Josefin San', sans-serif;
+}
+body{
+    background: url(./images/pexels-cats-coming-707582.jpg);
+    background-size: cover;
+}
+.container{
+    width: 260px;
+    height: 170px;
+    background: #fff;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-35%,20%);
+    border-radius: 7px;
+    box-shadow: 0.2px 0.2px 3px whitesmoke;
+}
+#timer{
+    width: 100%;
+    font-size: 52px;
+    text-align:center;
+    margin: 0px auto;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    cursor: not-allowed;
+}
+.buttons{
+    display: flex;
+    margin-left: 25%;
+}
+button{
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+}
+button i{
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+}
+.fa-pause{
+    background: orange;
+}
+#play{
+    background: #65a30d;
+}
+#reset{
+    background: #b91c1c;
+}
